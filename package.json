@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development webpack-dev-server --inline --hot",
-    "build": "NODE_ENV=production webpack"
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "build": "cross-env NODE_ENV=production webpack"
   },
   "keywords": [],
   "author": "",
@@ -51,5 +51,8 @@
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.4",
     "webpack-manifest-plugin": "^2.0.3"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0"
   }
 }
