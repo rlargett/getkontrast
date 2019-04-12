@@ -1,0 +1,71 @@
+@import "sanitize.css";
+
+svg {
+	fill: none;
+}
+
+@tailwind utilities;
+
+html, body {
+	height: 100%;
+	width: 100%;
+	/* font-family: 'Helvetica Neue', arial, sans-serif; */
+
+	font-weight: 400;
+	font-size: 85%;
+	color: #444;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@screen sm {
+	html {
+		font-size: 100%;
+	}
+}
+
+.irony-button {
+	/* text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); */
+	transition: all ease-out .1s;
+
+	& .ano {
+		background: tomato;
+	}
+
+	&:hover {
+		transform: scale(1.04);
+	}
+}
+
+#ph {
+	/* background: #DA552F; */
+}
+
+#logo {
+	/* transition: all .2s; */
+}
+
+.zoom {
+	transition: all ease-out .1s;
+
+	&:hover {
+		transform: scale(1.5);
+	}
+}
+
+.responsive-iframe-container {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 46.25%;
+
+	& iframe {
+		position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	}
+}
+
+/* Animation */
