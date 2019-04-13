@@ -173,7 +173,7 @@ const BuySection = () => (
 					py-4 px-4 border border-solid border-grey-light hover:border-red-light rounded shadow hover:shadow-lg
 					outline-none cursor-pointer
 					`} 
-					href="https://gum.co/kontrast" target="_blank">
+					href="https://gum.co/getkontrast" target="_blank">
 					<svg class="w-6 h-6 mr-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
 					<span>Buy for $4.99</span>
 				</a>
