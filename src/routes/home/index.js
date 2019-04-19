@@ -34,7 +34,7 @@ export default class Home extends Component {
 						<h1 class="mt-0 text-red-light text-3xl font-semibold">You Can Make This App Better</h1>
 						<p class="text-xl">I worked hard to make this app possible and better. However, I believe there still are rooms for improvement. Together we can improve this app. Whether you want a feature, found a bug, or just saying hi, I'd love to hear your feedback.😄</p>
 
-						<form class="w-full mt-16" name="contact" netlify method="post">
+						<form class="w-full mt-16" name="contact" netlify method="post" action="/">
 							{/*<input type='hidden' name='redirect_to' value='/' />*/}
 							<div class="flex flex-wrap -mx-3 mb-6">
 								<div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
